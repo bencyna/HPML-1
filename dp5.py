@@ -12,7 +12,7 @@ allProgramLengthTimes = []
 
 for i in range(repetitions):
   start = time.perf_counter()
-  res = numpy.dot(pA, pB)
+  res = np.dot(pA, pB)
   end = time.perf_counter()
   if i >= halfOfRepetions:
     programLengthTime = (end - start) 
